@@ -29,6 +29,19 @@
   gap: 1.6rem;
 }
 
+.flex{
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1.6rem;
+}
+
+.grid{
+  display: grid;
+}
+
+
 @media (width >= 80em) {
   .desktop-only{
     display: initial;
