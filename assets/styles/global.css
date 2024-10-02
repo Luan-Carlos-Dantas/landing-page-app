@@ -1,5 +1,6 @@
 :root{
   font-size: 62.5%;
+  font-family: 'Inter', system-ui ,sans-serif;
   --brand-color-primary:#F7B733;
   --brand-gradient: linear-gradient(90deg,#FC4A1A, #F7B733);
   --brand-color-secondary:#FC4A1A;
@@ -18,4 +19,83 @@
   --title-sm-mobile: 2rem;
   --text-mobile: 1.6rem;
   --span-mobile: 1.4rem;
+  --fw-base: 400;
+  --fw-md: 600;
+  --fw-bold: 800;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+html{
+  font-weight: var(--fw-base);
+  font-size: var(--text-mobile);
+  line-height: 1.6;
+  color: var(--text-color-primary);
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3{
+  line-height: 1.2;
+  color: var(--text-color-primary);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.04em;
+}
+
+h1{
+  font-size: var(--title-lg-mobile);
+}
+
+h2{
+  font-size: var(--title-md-mobile);
+}
+
+h3{
+  font-size: var(--title-sm-mobile);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul[role="list"]{
+  list-style: none;
+}
+
+span{
+  color: var(--text-color-secondary);
+}
+
+
+@media (width >= 80em) {
+  h1{
+    font-size: var(--title-lg-desktop);
+  }
+
+  h2{
+    font-size: var(--title-md-desktop);
+  }
+
+  h3{
+    font-size: var(--title-sm-desktop);
+  }
+
 }
