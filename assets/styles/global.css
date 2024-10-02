@@ -22,6 +22,11 @@
   --fw-base: 400;
   --fw-md: 600;
   --fw-bold: 800;
+  --max-width: 375px;
+  --px-lg: 2.4rem;
+  --py-base: 1.6rem;
+  --py-lg: 2.4rem;
+  --py-xl: 4.8rem;
 }
 
 *,
@@ -86,6 +91,13 @@ span{
 
 
 @media (width >= 80em) {
+  :root{
+    --max-width: 80em;
+    --px-lg: 3.2rem;
+    --py-base: 2.4rem;
+    --py-lg: 4rem;
+    --py-xl: 8rem;
+  }
   h1{
     font-size: var(--title-lg-desktop);
   }
