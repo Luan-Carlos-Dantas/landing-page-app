@@ -1,0 +1,21 @@
+:root{
+  font-size: 62.5%;
+  --brand-color-primary:#F7B733;
+  --brand-gradient: linear-gradient(90deg,#FC4A1A, #F7B733);
+  --brand-color-secondary:#FC4A1A;
+  --background-color:#09090B;
+  --surface-color:#18181B;
+  --stroke-color:#27272A;
+  --text-color-secondary:#A1A1AA;
+  --text-color-primary: #F4F4F5;
+  --title-lg-desktop: 6.4rem;
+  --title-md-desktop: 4.8rem;
+  --title-sm-desktop: 3.2rem;
+  --text-desktop: 1.6rem;
+  --span-desktop: 1.4rem;
+  --title-lg-mobile: 4rem;
+  --title-md-mobile: 2.4rem;
+  --title-sm-mobile: 2rem;
+  --text-mobile: 1.6rem;
+  --span-mobile: 1.4rem;
+}
