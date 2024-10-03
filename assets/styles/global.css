@@ -82,6 +82,10 @@ a{
   color: inherit;
 }
 
+p{
+  font-size: var(--text-mobile);
+}
+
 a:hover{
   background: var(--brand-gradient);
   -webkit-background-clip: text;
@@ -91,6 +95,10 @@ a:hover{
 
 i{
   font-size: var(--title-md-mobile);
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 ul[role="list"]{
@@ -101,7 +109,7 @@ span{
   color: var(--text-color-secondary);
 }
 
-img{
+img {
   max-width: 100%;
   display: inline-block;
 }
@@ -130,4 +138,12 @@ img{
   a{
     font-size: var(--text-desktop);
   }
+
+  i{
+    font-size: var(--title-sm-desktop);
+  }
+  p{
+    font-size: var(--text-desktop);
+  }
+
 }
