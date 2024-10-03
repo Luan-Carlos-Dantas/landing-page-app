@@ -4,7 +4,25 @@
 }
 
 section{
+  & header{
+    & h2{
+      margin-top: .8rem;
+    }
 
+    & strong{
+      display: block;
+      font-size: var(--fw-md) var(--span-mobile)/1 'Inter', sans-serif;
+      letter-spacing: 0.08em;
+      text-transform:uppercase;
+
+      color: var(--brand-color-primary);
+    }
+  }
+
+  & p{
+    margin-top: .8rem;
+    color: var(--text-color-secondary);
+  }
 }
 
 

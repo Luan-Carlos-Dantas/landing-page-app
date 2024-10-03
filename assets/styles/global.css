@@ -49,6 +49,7 @@ html{
   font-size: var(--text-mobile);
   line-height: 1.6;
   color: var(--text-color-primary);
+  scroll-behavior: smooth;
 }
 
 body{

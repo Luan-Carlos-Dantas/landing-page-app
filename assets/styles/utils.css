@@ -26,6 +26,7 @@
 
 .even-collumns{
   display: grid;
+  align-items: center;
   gap: 1.6rem;
 }
 
@@ -56,6 +57,7 @@
   }
 
   .even-collumns{
+
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
   }
