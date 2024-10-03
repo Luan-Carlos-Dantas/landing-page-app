@@ -1,0 +1,109 @@
+#pricing{
+  & header{
+    text-align: center;
+  }
+
+  & .cards{
+    margin-top: 3.2rem;
+  }
+
+  & h3{
+    font-size: var(--title-sm-mobile);
+    margin-top: 0;
+  }
+
+  & .card p{
+    margin-top: .4rem;
+  }
+
+  & .btn{
+    width: 100%;
+  }
+
+  & li{
+    color: var(--text-color-secondary);
+    background: url(../images/check-icon.svg) no-repeat;
+    padding-left: 3.2rem;
+  }
+
+  & ul + small{
+    display: block;
+    margin-top: 2.4rem;
+    font-size: var(--span-mobile);
+    color: var(--text-color-secondary);
+  }
+
+  & .separator{
+    height: 1px;
+    margin: 3.2rem;
+    background: radial-gradient(var(--text-color-secondary), var(--surface-color) 70%);
+  }
+
+  & zin-pricing{
+    display: block;
+    padding-block: 2.4rem;
+    font: var(--fw-bold) var(--title-sm-desktop)/1.2 'Inter', sans-serif;
+  }
+
+  & zin-pricing small{
+    font: var(--fw-base) 1.6rem/1.25 'Inter', sans-serif;
+    color: var(--text-color-secondary);
+  }
+
+  & .premium{
+    position: relative;
+    padding: .2rem;
+    & .card{
+      padding-top: 6.8rem;
+      & > span{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        padding: 1.2rem 3.2rem;
+        background: var(--brand-gradient);
+
+        border-top-left-radius: 2.4rem;
+        border-bottom-right-radius: 2.4rem;
+
+        font: var(--fw-md) 1.2rem 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--background-color);
+      }
+    }
+
+    &::before{
+      content: "";
+      background: var(--brand-gradient);
+      position: absolute;
+      inset: 0;
+      border-radius: 2.4rem;
+      z-index: -1;
+    }
+  }
+
+  @media (width >= 80em) {
+    & header{
+      max-width: 80rem;
+      margin-inline: auto;
+    }
+
+    & zin-pricing{
+      font-size: var(--title-lg-mobile);
+    }
+
+    & .premium .card{
+      padding-bottom: 9.6rem;
+    }
+
+    & .card:nth-child(3) .separator{
+      margin-block: 2.4rem;
+    }
+
+    & .btn-md{
+      padding: 1.2rem 2.4rem;
+      font-size:var(--text-mobile);
+    }
+  }
+}
