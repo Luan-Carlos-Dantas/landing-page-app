@@ -33,6 +33,14 @@
   display: flex;
 }
 
+.items-center{
+  align-items: center;
+}
+
+.gap-2\.4{
+  gap: 2.4rem;
+}
+
 .gap-1 {
   gap: 1.6rem;
 }
