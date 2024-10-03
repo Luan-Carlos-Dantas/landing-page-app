@@ -1,0 +1,15 @@
+#smartphone-img{
+  background: url(../images/illustration-bg-mobile.svg) top/cover;
+  margin-top: 8rem;
+}
+
+section{
+
+}
+
+
+@media (width >= 80em) {
+  #smartphone-img{
+    display: none;
+  }
+}

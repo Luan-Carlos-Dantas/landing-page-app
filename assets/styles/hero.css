@@ -1,6 +1,5 @@
 #hero{
-  background: url(../images/hero/hero-bg.png) no-repeat bottom center/contain;
-  padding-bottom: 20rem;
+
   text-align: center;
 
   & img[src*="music"]{
@@ -25,6 +24,8 @@
 
 @media (width >= 80em) {
   #hero{
+    background: url(../images/hero/hero-bg.png) no-repeat bottom center/contain;
+    padding-bottom: 20rem;
     & img[src*="music"]{
       width: 41.2rem;
     }
