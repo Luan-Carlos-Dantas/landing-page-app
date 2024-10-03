@@ -103,7 +103,7 @@ span{
 
 @media (width >= 80em) {
   :root{
-    --max-width: 80em;
+    --max-width: 100em;
     --px-lg: 3.2rem;
     --py-base: 2.4rem;
     --py-lg: 4rem;
@@ -121,4 +121,7 @@ span{
     font-size: var(--title-sm-desktop);
   }
 
+  a{
+    font-size: var(--text-desktop);
+  }
 }
